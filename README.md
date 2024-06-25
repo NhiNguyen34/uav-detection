@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 # uav-detection
-This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, each fine-tuned on the VisDrone dataset. These models are optimized specifically for detecting UAV (Unmanned Aerial Vehicle) images.
+
 =======
-# visdrone-detection
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-A short description of the project.
+This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, each fine-tuned on the VisDrone dataset. These models are optimized specifically for detecting UAV (Unmanned Aerial Vehicle) images.
 
 ## Project Organization
 
@@ -124,4 +122,3 @@ YOLOv10 is an advanced version of the YOLO series models, offering improved perf
 - YOLOv8 Documentation: [YOLOv8 GitHub](https://github.com/ultralytics/yolov8)
 - RT-DETR Paper: [Real-Time Detection Transformer](https://arxiv.org/abs/2101.11781)
 - YOLOv10 Documentation: [YOLOv10 GitHub](https://github.com/ultralytics/yolov10)
->>>>>>> master

@@ -113,6 +113,6 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 
 ## References
 
-- YOLOv8 Documentation: [YOLOv8 GitHub](https://github.com/ultralytics/yolov8)
-- RT-DETR Paper: [Real-Time Detection Transformer](https://arxiv.org/abs/2101.11781)
-- YOLOv10 Documentation: [YOLOv10 GitHub](https://github.com/ultralytics/yolov10)
+- YOLOv8 Documentation: [YOLOv8 GitHub](https://github.com/ultralytics/ultralytics)
+- RT-DETR Paper: [Real-Time Detection Transformer](https://arxiv.org/pdf/2304.08069)
+- YOLOv10 Documentation: [YOLOv10 GitHub](https://github.com/THU-MIG/yolov10)

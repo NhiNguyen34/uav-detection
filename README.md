@@ -28,11 +28,11 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 
 ## Models
 
-- YOLOv8: YOLOv8 is a state-of-the-art object detection model that offers high accuracy and speed. It is used in this project for vehicle detection tasks.
+- YOLOv8 is a state-of-the-art object detection model that offers high accuracy and speed. It is used in this project for vehicle detection tasks.
 
-- RT-DETR: RT-DETR (Real-Time Detection Transformer) is another powerful model utilized for object detection. It leverages transformer architecture to enhance detection capabilities, providing robust results in real-time scenarios.
+- RT-DETR (Real-Time Detection Transformer) is another powerful model utilized for object detection. It leverages transformer architecture to enhance detection capabilities, providing robust results in real-time scenarios.
 
-- YOLOv10: YOLOv10 is an advanced version of the YOLO series models, offering improved performance and accuracy. It is included in this project to explore its effectiveness in vehicle detection.
+- YOLOv10 is an advanced version of the YOLO series models, offering improved performance and accuracy. It is included in this project to explore its effectiveness in vehicle detection.
 
 ## Setup Instructions
 

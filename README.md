@@ -6,7 +6,7 @@
 
 This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, each fine-tuned on the VisDrone dataset. These models are optimized specifically for detecting UAV (Unmanned Aerial Vehicle) images.
 
-### Project Organization
+## Project Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
@@ -31,7 +31,7 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 ```
 
 
-### Models
+## Models
 
 - YOLOv8: YOLOv8 is a state-of-the-art object detection model that offers high accuracy and speed. It is used in this project for vehicle detection tasks.
 
@@ -39,7 +39,7 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 
 - YOLOv10: YOLOv10 is an advanced version of the YOLO series models, offering improved performance and accuracy. It is included in this project to explore its effectiveness in vehicle detection.
 
-### Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**:
     ```bash
@@ -108,7 +108,7 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 
 4. **Run the model**:
     ```bash
-    python run.py --model_path checkpoints/4epoch-rtdetr-best.pt --image_path demo/demo-uav.jpg --model_detect Yolov8
+    python run.py --model_path checkpoints/4epoch-rtdetr-best.pt --image_path demo/demo-uav.jpg --model_detect "yolov8"
     ```
 
 ## References

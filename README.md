@@ -56,7 +56,6 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
     # Install dependencies
     pip install -r requirements.txt
 
-
     echo "Setup complete. Please place your model checkpoints in the 'checkpoints' folder and your demo images in the 'demo' folder."
     ```
 

@@ -1,14 +1,12 @@
 # uav-detection
 
-=======
-
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
 This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, each fine-tuned on the VisDrone dataset. These models are optimized specifically for detecting UAV (Unmanned Aerial Vehicle) images.
 
-## Project Organization
+### Project Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
@@ -29,23 +27,19 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 │   └── figures        <- Generated graphics and figures to be used in 
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
+                          generated with `pip freeze > requirements.txt`
 ```
 
 
-## Models
+### Models
 
-### YOLOv8
-YOLOv8 is a state-of-the-art object detection model that offers high accuracy and speed. It is used in this project for vehicle detection tasks.
+- YOLOv8: YOLOv8 is a state-of-the-art object detection model that offers high accuracy and speed. It is used in this project for vehicle detection tasks.
 
-### RT-DETR
-RT-DETR (Real-Time Detection Transformer) is another powerful model utilized for object detection. It leverages transformer architecture to enhance detection capabilities, providing robust results in real-time scenarios.
+- RT-DETR: RT-DETR (Real-Time Detection Transformer) is another powerful model utilized for object detection. It leverages transformer architecture to enhance detection capabilities, providing robust results in real-time scenarios.
 
-### YOLOv10
-YOLOv10 is an advanced version of the YOLO series models, offering improved performance and accuracy. It is included in this project to explore its effectiveness in vehicle detection.
+- YOLOv10: YOLOv10 is an advanced version of the YOLO series models, offering improved performance and accuracy. It is included in this project to explore its effectiveness in vehicle detection.
 
-## Setup Instructions
+### Setup Instructions
 
 1. **Clone the repository**:
     ```bash

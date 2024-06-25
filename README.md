@@ -43,8 +43,8 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/visdrone-detection.git
-    cd visdrone-detection
+    git clone https://github.com/NhiNguyen34/uav-detection.git
+    cd uav-detection
     ```
 
 2. **Create and activate the conda environment**:
@@ -52,13 +52,6 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
     ### On Linux/macOS:
     
     ```bash
-    # Check for conda installation
-    if ! command -v conda &> /dev/null
-    then
-        echo "conda could not be found. Please install Anaconda or Miniconda first."
-        exit
-    fi
-
     # Create a new conda environment
     conda create --name visdrone-det python=3.10 -y
 
@@ -68,9 +61,6 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
     # Install dependencies
     pip install -r requirements.txt
 
-    # Create necessary folders
-    mkdir -p checkpoints
-    mkdir -p demo
 
     echo "Setup complete. Please place your model checkpoints in the 'checkpoints' folder and your demo images in the 'demo' folder."
     ```
@@ -78,27 +68,15 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
     ### On Windows:
     
     ```bat
-    @echo off
-
-    :: Check for conda installation
-    where conda >nul 2>nul
-    if %errorlevel% neq 0 (
-        echo "conda could not be found. Please install Anaconda or Miniconda first."
-        exit /b
-    )
 
     :: Create a new conda environment
     conda create --name visdrone-det python=3.10 -y
 
     :: Activate the environment
-    call conda activate visdrone-det
+    conda activate visdrone-det
 
     :: Install dependencies
     pip install -r requirements.txt
-
-    :: Create necessary folders
-    mkdir checkpoints
-    mkdir demo
 
     echo Setup complete. Please place your model checkpoints in the 'checkpoints' folder and your demo images in the 'demo' folder.
     ```
@@ -108,7 +86,7 @@ This repository provides checkpoints for YOLOv8, RT-DETR, and YOLOv10 models, ea
 
 4. **Run the model**:
     ```bash
-    python run.py --model_path checkpoints/4epoch-rtdetr-best.pt --image_path demo/demo-uav.jpg --model_detect "yolov8"
+    python run.py --model_path checkpoints/your_model_checkpoint.pt --image_path demo/your_image.jpg --model_detect "your_model" 
     ```
 
 ## References
